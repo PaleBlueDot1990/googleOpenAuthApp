@@ -91,10 +91,8 @@ passport.deserializeUser((id, done) => {
 
 ### Summary Table
 
-|---------------------|-------------------------------------------------------------------------|
 | Function            | Purpose                                                                 |
 |---------------------|-------------------------------------------------------------------------|
 | `serializeUser()`   | Stores a lightweight ID in the session cookie                           |
 | `deserializeUser()` | Reconstructs the full user object using the ID from the session cookie  |
 | `req.user`          | Becomes available on every request, if the user is authenticated        |
-|---------------------|-------------------------------------------------------------------------|
